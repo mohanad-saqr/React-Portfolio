@@ -5,8 +5,12 @@ function Project({ title, imageUrl, deployedUrl, repoUrl }) {
     <div className="project">
       <h3>{title}</h3>
       <img src={imageUrl} alt={title} />
-      <a href={deployedUrl} target="_blank" rel="noopener noreferrer">Deployed App</a>
+      <br></br>
+      <a href={deployedUrl} target="_blank" rel="noopener noreferrer">Deployed Application</a>
+      <br></br>
+      <br></br>
       <a href={repoUrl} target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+      <br></br>
     </div>
   );
 }

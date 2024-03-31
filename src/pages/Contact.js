@@ -12,7 +12,7 @@ const Contact = () => {
       <h2>Contact</h2>
       <form onSubmit={handleSubmit}>
         <input type="text" placeholder="Name" required />
-        <input type="email" placeholder="Email" required />
+        <input type="mohanad.saqr@gmail.com" placeholder="Email" required />
         <textarea placeholder="Message" required></textarea>
         <button type="submit">Submit</button>
       </form>
