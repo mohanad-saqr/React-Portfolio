@@ -10,6 +10,32 @@ const Portfolio = () => {
       repoUrl: 'https://github.com/mohanad-saqr/Code-Quiz' 
     },
     // Add more projects as needed
+    { title: 'Code-Quiz', 
+    imageUrl: require('../assets/cq.png'), 
+    deployedUrl: 'https://mohanad-saqr.github.io/Code-Quiz/', 
+    repoUrl: 'https://github.com/mohanad-saqr/Code-Quiz' 
+  },
+  { title: 'Code-Quiz', 
+  imageUrl: require('../assets/cq.png'), 
+  deployedUrl: 'https://mohanad-saqr.github.io/Code-Quiz/', 
+  repoUrl: 'https://github.com/mohanad-saqr/Code-Quiz' 
+},
+{ title: 'Code-Quiz', 
+imageUrl: require('../assets/cq.png'), 
+deployedUrl: 'https://mohanad-saqr.github.io/Code-Quiz/', 
+repoUrl: 'https://github.com/mohanad-saqr/Code-Quiz' 
+},
+// Add more projects as needed
+{ title: 'Code-Quiz', 
+imageUrl: require('../assets/cq.png'), 
+deployedUrl: 'https://mohanad-saqr.github.io/Code-Quiz/', 
+repoUrl: 'https://github.com/mohanad-saqr/Code-Quiz' 
+},
+{ title: 'Code-Quiz', 
+imageUrl: require('../assets/cq.png'), 
+deployedUrl: 'https://mohanad-saqr.github.io/Code-Quiz/', 
+repoUrl: 'https://github.com/mohanad-saqr/Code-Quiz' 
+},
   ];
 
   return (

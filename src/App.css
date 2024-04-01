@@ -144,3 +144,8 @@ footer a {
 footer a:hover {
   color: #04c2c9;
 }
+/* app.css */
+.project .project-image {
+  width: 300px !important; /* Set desired width */
+  height: 200px !important; /* Set desired height */
+}

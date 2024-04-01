@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 function Project({ title, imageUrl, deployedUrl, repoUrl }) {
   return (
     <div className="project">
