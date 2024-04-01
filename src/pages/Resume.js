@@ -1,12 +1,14 @@
 import React from 'react';
 
 const Resume = () => {
-  const resumeUrl = "https://docs.google.com/document/d/12kxmqsPgv5K8iIlOQVgyie6wvtJ0UVbvoeRoY-U-Lgo/edit?usp=sharing";
+  // Specify the path to the locally stored resume file
+  const resumeFilePath = "/Mohanad_Saqr_Resume.pdf";
 
   return (
     <section>
       <h2>Resume</h2>
-      <a href={resumeUrl} target="_blank" rel="noopener noreferrer">Download Resume</a>
+       {/* Add a download link for the locally stored resume file */}
+       <a href={resumeFilePath} download>Download Resume</a>
       <ul>
         <li>Proficiencies:</li>
         <br>
