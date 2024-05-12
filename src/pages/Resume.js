@@ -2,7 +2,7 @@ import React from 'react';
 
 const Resume = () => {
   // Specify the path to the locally stored resume file
-  const resumeFilePath = "/Mohanad_Saqr_Resume.pdf";
+  const resumeFilePath = "/MOHANAD_SAQR_Resume.pdf";
 
   return (
     <section>
